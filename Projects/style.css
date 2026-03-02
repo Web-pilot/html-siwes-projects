@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100%;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+header {
+    height: 50px;
+    background: #F9FAFB;
+    color: #111827;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    
+}
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    margin : 0 auto;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+nav ul li a {
+    padding: 5px;
+    transition: 0.3s;
+}
+nav ul li a:hover {
+    background: #DBEAFE;
+}
+.about-me {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E5E7EB;
+    padding: 5px;
+    background-image: url("https://ochascoffee.netlify.app/images/images/gallery-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #dae1f0;
+    font-weight: bold;
+    letter-spacing: 1px ;
+}
+.about-details {
+    line-height: 25px;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+h2 {
+    margin: 5px auto;
+}
+.about-details h2 {
+    margin: 5px auto;
+}
+.skills ul{
+    list-style: circle;
+    margin-left: 50px;
+}
+.projects-container a {
+    background-color: #DBEAFE;
+    padding: 5px 8px;
+    border-radius: 5px;
+
+}
+.projects {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    border: 1px solid #E5E7EB;
+    margin: 10px;
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    background: #111827;
+    color: #F9FAFB;
+    padding: 20px;
+}
+
+/* TEAM MEMBERS STYLES */
+main {
+    display: flex;
+    gap: 10px;
+    height: 60vh;
+    align-items: center;
+}
+
+.team-container section {
+    flex: 1 1 calc(33% - 10px);
+    border: 1px solid #DBEAFE;
+    padding: 10px;
+    line-height: 20px;
+}
+.team-container section img {
+    width: 100%;
+}
+.team-container section h3 {
+    opacity: 0.7;
+}
+.team-container section p {
+    margin: 5px 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* PRICING TABLE STYLES */
+table {
+    min-height: 200px;
+    margin: 70px auto;
+    width: 100%;
+    text-align: left;
+    padding: 0;
+    border: 1px solid #DBEAFE;
+}
+table thead {
+    background: #f7f7f7;
+}
+table thead th {
+    padding: 10px 0;
+}
+table tr.odd{
+    background:#f7f7f7;
+    margin: 0;
+}
+/* IMAGE GALLERY */
+.image-gallery {
+    display: flex;
+    height: 600px;
+    overflow: scroll;
+    width: 800px;
+    flex-direction: column;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* FORM  */
+form {
+    width: 300px;
+    min-height: 300px;
+    border: 1px solid #E5E7EB;
+    margin: 60px auto;
+    padding: 10px;
+    
+}
+form h3 {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #E5E7EB;
+    margin-bottom: 5px;
+}
+label {
+    opacity: 0.7;
+}
+input, textarea {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border:none;
+    border: 1px solid #dae1f0;
+    margin: 5px;
+    outline: none;
+    }
+input[type="submit"] {
+    cursor: pointer;
+    transition: 0.3s;
+}
+input[type="submit"]:hover {
+    background-color: #DBEAFE;
+}
